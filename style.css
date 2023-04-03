@@ -1,0 +1,35 @@
+*, *::before, *::after{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+}
+.main_div{
+    width: 100vw;
+    height: 100vw;
+    background-color: blue;
+}
+.music-container{
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px 3px red;
+    padding: 30px;
+    text-align: center;
+    background-color: yellow;
+}
+#title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: aqua;
+    margin: 20px 0 5px 0px;
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: 0 30px 50px brown;
+}
+#artist{
+    
+}
