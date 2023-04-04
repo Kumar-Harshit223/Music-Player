@@ -9,7 +9,6 @@ html{
 .main-div{
     padding-top: 60px;
     padding-bottom: 80px;
-    background-color: blue;
     display: grid;
     place-items: center;
 }
@@ -17,10 +16,15 @@ html{
     width: 350px;
     height: 550px;
     border-radius: 20px;
-    box-shadow: 2px 3px 4px 3px red;
     padding: 30px;
     text-align: center;
-    background-color: yellow;
+    background: rgba(126, 193, 234, .15);
+    z-index: 1;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.25);
+    border: 1px solid rgba(255, 255, 255,.25);
+    border-right: 1px solid rgba(255, 255, 255,.1);
+    border-bottom: 1px solid rgba(255, 255, 255,.1);
+    backdrop-filter: blur(20px);
 }
 #title{
     text-transform: uppercase;
