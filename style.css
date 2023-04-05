@@ -24,25 +24,25 @@ html{
     border: 1px solid rgba(255, 255, 255,.25);
     border-right: 1px solid rgba(255, 255, 255,.1);
     border-bottom: 1px solid rgba(255, 255, 255,.1);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(40px);
 }
 #title{
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     word-spacing: 5px;
-    color: aqua;
+    color: rgb(255, 255, 255);
     margin: 20px 0 5px 0px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
     text-shadow: 0 30px 50px brown;
 }
 #artist{
-    color: black;
+    color: rgb(255, 255, 255);
     text-transform: capitalize;
     letter-spacing: 10px;
     font-size: 20px;
     margin-bottom: 40px;
-    font-weight: 300;
+    font-weight: 400;
 }
 .img-container{
     width: 250px;

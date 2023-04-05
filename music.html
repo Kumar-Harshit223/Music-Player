@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="style.css">
       </head>
-      <body id="background">
+      <body id="background" style="transition: 2s;">
         
         <div class="main-div">
             <div class="music-container">
@@ -120,7 +120,7 @@
             var i = 0;
             function change() {
             var doc = document.getElementById("background");
-            var color = ["purple", "violet", "blue", "green", "yellow", "orange", "red","indigo", "brown"];
+            var color = ["purple", "yellow", "violet",  "green", "blue", "orange", "bisque", "red", "wheat", "indigo","beige", "brown", "olive"];
             doc.style.backgroundColor = color[i];
             i = (i + 1) % color.length;
             }
